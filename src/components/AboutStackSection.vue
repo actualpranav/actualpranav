@@ -11,10 +11,10 @@
         <h2 class="about-title">A bit about me</h2>
         <div class="about-body">
           <p>
-            I'm a backend engineer who believes the best infrastructure is the kind you never have to think about. I specialize in designing horizontally scalable systems, writing clean concurrent code, and optimizing database performance.
+            I'm a backend engineer currently working as an SDE 1 at Swiggy. I specialize in designing horizontally scalable systems, optimizing costs, and building reliable microservices. 
           </p>
           <p>
-            When I'm not tracing distributed logs or tweaking container orchestrations, I brew pour-over coffee on the weekends and try to keep my houseplants alive.
+            Previously, I interned at Fibe and State Street where I built fraud detection dashboards and migrated legacy systems ensuring 100% data accuracy.
           </p>
         </div>
       </div>
@@ -32,22 +32,17 @@
             
             <div class="stack-line">
               <span class="stack-key">&gt; languages</span>
-              <span class="stack-value">golang, python, typescript</span>
+              <span class="stack-value">go, java, python, javascript, sql, springboot, dropwizard, reactjs, grpc</span>
             </div>
             
             <div class="stack-line">
-              <span class="stack-key">&gt; databases</span>
-              <span class="stack-value">postgres, redis, mongodb</span>
-            </div>
-            
-            <div class="stack-line">
-              <span class="stack-key">&gt; infra</span>
-              <span class="stack-value">docker, kubernetes, aws</span>
+              <span class="stack-key">&gt; infra & db</span>
+              <span class="stack-value">mysql, dynamodb, redis, mongodb, firebase, aws, kafka, haproxy, kql</span>
             </div>
             
             <div class="stack-line">
               <span class="stack-key">&gt; tools</span>
-              <span class="stack-value">git, kafka, grpc, linux</span>
+              <span class="stack-value">github, jetbrains, llms, databricks, fcm</span>
             </div>
           </div>
         </div>

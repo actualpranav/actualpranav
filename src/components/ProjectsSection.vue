@@ -1,29 +1,20 @@
 <script setup lang="ts">
 import ProjectCard from './ProjectCard.vue'
 
-// Sample data - you can replace this with your actual projects later
 const projects = [
   {
     id: 1,
-    title: 'Distributed Message Queue',
-    description: 'A high-throughput, horizontally scalable message broker built in Go using Raft consensus for high availability.',
-    tags: ['golang', 'raft', 'tcp', 'grpc'],
-    githubUrl: '#',
+    title: 'Amazon Clone',
+    description: 'Full-stack clone with shopping cart functionality, secure Stripe payment integration, and a real-time responsive database.',
+    tags: ['reactjs', 'firebase'],
+    githubUrl: 'https://challenge-629de.web.app/',
+    liveUrl: 'https://challenge-629de.web.app/',
   },
   {
     id: 2,
-    title: 'Payment Processing Service',
-    description: 'Idempotent, PCI-compliant payment gateway integration handling Stripe and PayPal webhooks with zero data loss.',
-    tags: ['python', 'fastapi', 'postgresql', 'redis'],
-    githubUrl: '#',
-    liveUrl: '#',
-  },
-  {
-    id: 3,
-    title: 'Real-time Analytics Engine',
-    description: 'Stream processing pipeline ingesting 10k events/sec. Stores aggregated data for dashboard consumption.',
-    tags: ['rust', 'kafka', 'clickhouse', 'docker'],
-    githubUrl: '#',
+    title: 'Tic-Tac-Toe Engine',
+    description: 'Core Java customizable game supporting 26x26 boards and bots using MVC architecture, SOLID principles, and OOP concepts.',
+    tags: ['java', 'oop', 'mvc'],
   }
 ]
 </script>
@@ -33,7 +24,7 @@ const projects = [
     <div class="container">
       <div class="section-header">
         <span class="mono-label section-label">// Selected Work</span>
-        <h2 class="section-title">Things I've Built</h2>
+        <h2 class="section-title">Projects</h2>
       </div>
       
       <div class="projects-grid">

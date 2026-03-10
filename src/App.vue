@@ -43,6 +43,14 @@ onUnmounted(() => {
         <a href="#about">About</a>
         <a href="#stack">Stack</a>
         <a href="#contact">Contact</a>
+        <a href="/pranav-jadhav_20260310_1946.pdf" download="Pranav_Jadhav_Resume.pdf" class="resume-icon" aria-label="Download Resume" title="Download Resume">
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+            <polyline points="14 2 14 8 20 8"></polyline>
+            <path d="M12 18v-6"></path>
+            <path d="M9 15l3 3 3-3"></path>
+          </svg>
+        </a>
       </nav>
 
       <!-- Mobile Hamburger -->
@@ -66,6 +74,15 @@ onUnmounted(() => {
       <a href="#about" @click="closeMobileMenu">About</a>
       <a href="#stack" @click="closeMobileMenu">Stack</a>
       <a href="#contact" @click="closeMobileMenu">Contact</a>
+      <a href="/pranav-jadhav_20260310_1946.pdf" download="Pranav_Jadhav_Resume.pdf" class="resume-icon-mobile" aria-label="Download Resume">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+          <polyline points="14 2 14 8 20 8"></polyline>
+          <path d="M12 18v-6"></path>
+          <path d="M9 15l3 3 3-3"></path>
+        </svg>
+        Resume
+      </a>
     </nav>
   </div>
 
@@ -130,7 +147,7 @@ header.is-scrolled {
   }
 
   /* Sweep underline effect */
-  .desktop-nav a::after {
+  .desktop-nav a:not(.resume-icon)::after {
     content: '';
     position: absolute;
     bottom: 0;
@@ -146,9 +163,23 @@ header.is-scrolled {
     color: var(--color-terre-cuite);
   }
 
-  .desktop-nav a:hover::after,
-  .desktop-nav a:focus-visible::after {
+  .desktop-nav a:not(.resume-icon)::hover::after,
+  .desktop-nav a:not(.resume-icon)::focus-visible::after {
     width: 100%;
+  }
+
+  /* Resume Icon specific styling */
+  .desktop-nav a.resume-icon {
+    display: flex;
+    align-items: center;
+    padding-bottom: 0;
+    opacity: 0.8;
+    transition: opacity 0.2s ease, color 0.2s ease;
+  }
+
+  .desktop-nav a.resume-icon:hover {
+    opacity: 1;
+    color: var(--color-terre-cuite);
   }
 }
 
@@ -267,6 +298,18 @@ header.is-scrolled {
 .mobile-nav a:hover,
 .mobile-nav a:focus-visible {
   color: var(--color-terre-cuite);
+}
+
+.resume-icon-mobile {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: var(--spacing-md);
+  opacity: 0.9;
+}
+
+.resume-icon-mobile svg {
+  color: inherit;
 }
 
 main {

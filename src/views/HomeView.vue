@@ -2,6 +2,7 @@
 import HeroSection from '@/components/HeroSection.vue'
 import ProjectsSection from '@/components/ProjectsSection.vue'
 import AboutStackSection from '@/components/AboutStackSection.vue'
+import ExperienceSection from '@/components/ExperienceSection.vue'
 import ContactSection from '@/components/ContactSection.vue'
 </script>
 
@@ -11,16 +12,20 @@ import ContactSection from '@/components/ContactSection.vue'
       <HeroSection />
     </div>
     
-    <div id="work">
-      <ProjectsSection />
-    </div>
-    
     <div id="about">
       <AboutStackSection />
     </div>
-    
+
     <!-- Stack is part of AboutStackSection, but we keep an anchor point for navigation -->
     <div id="stack" class="sr-only"></div>
+
+    <div id="experience">
+      <ExperienceSection />
+    </div>
+    
+    <div id="work">
+      <ProjectsSection />
+    </div>
     
     <div id="contact">
       <ContactSection />
