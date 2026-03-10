@@ -1,0 +1,30 @@
+/*
+ * ─────────────────────────────────────────────
+ *  Café Color Palette
+ *  Project color reference — do not remove.
+ * ─────────────────────────────────────────────
+ */
+
+:root {
+
+  /* ── Neutrals ──────────────────────────────── */
+  --color-milk:     #e6e2d6;  /* warm off-white        */
+  --color-cream:    #e4cdb0;  /* soft beige             */
+  --color-caramel:  #a2633c;  /* mid warm brown         */
+
+  /* ── Earth Tones ───────────────────────────── */
+  --color-linen:    #f5f1ea;  /* light warm linen       */
+  --color-khaki:    #d7c9b8;  /* muted sandy khaki      */
+  --color-camel:    #b2967d;  /* warm camel tan         */
+  --color-cocoa:    #7d6a44;  /* deep cocoa brown       */
+  --color-espresso: #4a342a;  /* dark espresso          */
+
+  /* ── Accents ───────────────────────────────── */
+  --color-terre-cuite:    #a13a1e;  /* terracotta red         */
+  --color-miel-dore:      #f1c166;  /* golden honey           */
+  --color-eau-trouble:    #b79858;  /* murky warm gold-green  */
+  --color-nuage-de-lait:  #fefaf0;  /* milky cloud white      */
+  --color-bleu-porcelaine:#88b8ce;  /* soft porcelain blue    */
+  --color-matcha:         #484d39;  /* deep earthy matcha     */
+
+}
