@@ -86,7 +86,7 @@ defineProps<{
 
 .tag {
   background-color: var(--color-espresso);
-  color: var(--color-bleu-porcelaine);
+  color: var(--color-nuage-de-lait);
   font-family: var(--font-mono);
   font-size: 13px;
   padding: 4px 10px;
