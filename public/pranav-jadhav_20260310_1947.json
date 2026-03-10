@@ -1,0 +1,302 @@
+{
+  "picture": {
+    "hidden": false,
+    "url": "",
+    "size": 80,
+    "rotation": 0,
+    "aspectRatio": 1,
+    "borderRadius": 0,
+    "borderColor": "rgba(0, 0, 0, 0.5)",
+    "borderWidth": 0,
+    "shadowColor": "rgba(0, 0, 0, 0.5)",
+    "shadowWidth": 0
+  },
+  "basics": {
+    "name": "Pranav Jadhav",
+    "headline": "SDE1 Swiggy",
+    "email": "pranavpjadhav154@gmail.com",
+    "phone": "+917499565518",
+    "location": "",
+    "website": {
+      "url": "",
+      "label": ""
+    },
+    "customFields": [
+      {
+        "id": "019cb019-5b3e-73ea-b6e9-d8643f057883",
+        "icon": "link",
+        "text": "",
+        "link": "https://www.linkedin.com/in/actualpranav/"
+      }
+    ]
+  },
+  "summary": {
+    "title": "",
+    "columns": 1,
+    "hidden": false,
+    "content": ""
+  },
+  "sections": {
+    "profiles": {
+      "title": "",
+      "columns": 1,
+      "hidden": false,
+      "items": []
+    },
+    "experience": {
+      "title": "",
+      "columns": 1,
+      "hidden": false,
+      "items": [
+        {
+          "id": "019caff4-fd9f-7054-b430-de8d44a68be2",
+          "hidden": false,
+          "options": {
+            "showLinkInTitle": true
+          },
+          "company": "Swiggy",
+          "position": "SDE 1",
+          "location": "Bangalore",
+          "period": "June 2024 - Present",
+          "website": {
+            "url": "https://www.swiggy.com",
+            "label": ""
+          },
+          "description": "<ul><li><p>Led deprecation of a legacy customer push notification service and migration to a modern Spring Boot application, simplifying architecture and reducing infrastructure costs by <strong>~$1,800/month</strong>.</p></li><li><p>Retired a dedicated marketing-events Lambda and consolidated delivery-partner marketing events into a central event-processing service, improving metrics across <strong>40+ event types</strong> from <strong>5</strong> upstream systems at <strong>575K events/min</strong> while cutting cloud spend by <strong>$400/month</strong>.</p></li><li><p>Deprecated a legacy EC2-based vendor identity resolution service by simplifying Kafka topic architecture and reducing cross-service hops, reliably handling <strong>3.8M requests/day</strong> and saving <strong>$300/month</strong> in infrastructure costs.</p></li><li><p>Integrated WhatsApp OTP for international user login flows via an internal gRPC service for secure mobile number resolution, enabling logins for <strong>12,500 international users/day (~1,600 iOPD)</strong>.</p></li><li><p>Built catalog integration between a quick-commerce storefront and a paid social ads partner, enabling near–real-time catalog sync for <strong>2M updates/day</strong> across <strong>13M items</strong> and reducing product-detail-page miss rate from <strong>10% to 0% </strong>effective increase of <strong>20,000 iOPD</strong>.</p></li><li><p>Drove marketing-events and push-notification multi-tenancy for new consumer and partner applications, supporting <strong>450K daily marketing events</strong> and <strong>650K daily push notifications</strong> for new business verticals.</p></li><li><p>Developed an LLM-powered reliability and cost-report generator integrating Opsgenie, Slack, Grafana, and AWS Cost Explorer, reducing weekly on-call report preparation time from <strong>4–5 hours</strong> to <strong>minutes</strong>.</p></li></ul><p></p>",
+          "roles": []
+        },
+        {
+          "id": "019caffc-d8c7-728f-a90b-bf022ceafbfb",
+          "hidden": false,
+          "options": {
+            "showLinkInTitle": true
+          },
+          "company": "Fibe",
+          "position": "Backend Devleoper Intern",
+          "location": "Pune",
+          "period": "February 2024 - April 2024",
+          "website": {
+            "url": "https://www.fibe.in/",
+            "label": ""
+          },
+          "description": "<p>Built a <strong>Fraud Syndicate Dashboard</strong> for fraud detection, automated <strong>customer onboarding remarketing</strong> workflows to reduce costs, and extracted <strong>GPS location from Video KYC records</strong> to strengthen identity verification.</p>",
+          "roles": []
+        },
+        {
+          "id": "019cb003-69b6-7213-8953-a9a33fbb7384",
+          "hidden": false,
+          "options": {
+            "showLinkInTitle": true
+          },
+          "company": "State Street",
+          "position": "Intern",
+          "location": "Hyderabad",
+          "period": "January 2023 - June 2023",
+          "website": {
+            "url": "https://www.statestreet.com/us/en",
+            "label": ""
+          },
+          "description": "<p>Developed proficiency in Java, SQL, and financial tools, assisted in a major Axiom V9→V10 migration ensuring 100% data accuracy, and built a streamlined testing workflow for the QA team.</p>",
+          "roles": []
+        }
+      ]
+    },
+    "education": {
+      "title": "",
+      "columns": 1,
+      "hidden": false,
+      "items": [
+        {
+          "id": "019cb004-f00c-73da-99a4-45ffbabce742",
+          "hidden": false,
+          "options": {
+            "showLinkInTitle": true
+          },
+          "school": "Vishwakarma Institute Of Information Technology",
+          "degree": " Bachelor of Technology (B. Tech)",
+          "area": "Computer Science",
+          "grade": "9.42 CGPA",
+          "location": "Pune",
+          "period": "July 2019 - June 2023",
+          "website": {
+            "url": "https://www.viit.ac.in/",
+            "label": ""
+          },
+          "description": ""
+        }
+      ]
+    },
+    "projects": {
+      "title": "",
+      "columns": 1,
+      "hidden": false,
+      "items": [
+        {
+          "id": "019cb011-da05-737f-a991-a52d2c2933e4",
+          "hidden": false,
+          "options": {
+            "showLinkInTitle": true
+          },
+          "name": "Amazon Clone",
+          "period": "",
+          "website": {
+            "url": "https://challenge-629de.web.app/",
+            "label": ""
+          },
+          "description": "<p>Built an Amazon-clone web app using ReactJS and Firebase with full shopping cart functionality, secure payment integration, and real-time database — gaining hands-on experience with React hooks, component architecture, and Firebase hosting.</p>"
+        },
+        {
+          "id": "019cb013-3c8e-7185-af87-9735134ac9b6",
+          "hidden": false,
+          "options": {
+            "showLinkInTitle": false
+          },
+          "name": "Customizable Tic-Tac-Toe game",
+          "period": "",
+          "website": {
+            "url": "",
+            "label": ""
+          },
+          "description": "<p>Built a customizable Tic-Tac-Toe game in Core Java supporting variable board sizes (3x3 to 26x26) and multiple bots, applying MVC architecture, SOLID principles, and OOP concepts to build scalable, maintainable code.</p>"
+        }
+      ]
+    },
+    "skills": {
+      "title": "",
+      "columns": 1,
+      "hidden": false,
+      "items": []
+    },
+    "languages": {
+      "title": "",
+      "columns": 1,
+      "hidden": false,
+      "items": []
+    },
+    "interests": {
+      "title": "",
+      "columns": 1,
+      "hidden": false,
+      "items": []
+    },
+    "awards": {
+      "title": "",
+      "columns": 1,
+      "hidden": false,
+      "items": []
+    },
+    "certifications": {
+      "title": "",
+      "columns": 1,
+      "hidden": false,
+      "items": []
+    },
+    "publications": {
+      "title": "",
+      "columns": 1,
+      "hidden": false,
+      "items": []
+    },
+    "volunteer": {
+      "title": "",
+      "columns": 1,
+      "hidden": false,
+      "items": []
+    },
+    "references": {
+      "title": "",
+      "columns": 1,
+      "hidden": false,
+      "items": []
+    }
+  },
+  "customSections": [
+    {
+      "title": "Technical Skills",
+      "columns": 1,
+      "hidden": false,
+      "id": "019cb016-a477-70be-b7f3-f25188674ee3",
+      "type": "summary",
+      "items": [
+        {
+          "id": "019cb016-c88e-7297-849b-3be3dff6761b",
+          "hidden": false,
+          "content": "<p><strong>Languages &amp; Frameworks:</strong> Go, Java, Python, JavaScript, SQL, Springboot, DropWizard, ReactJS, gRPC</p><p><strong>Databases &amp; Infrastructure:</strong> MySQL, DynamoDB, Redis, MongoDB, Firebase, AWS, Kafka, HaProxy, KQL</p><p><strong>Tools &amp; Platforms:</strong> Github, Jetbrains, LLMs, Databricks, FCM</p>"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "template": "rhyhorn",
+    "layout": {
+      "sidebarWidth": 35,
+      "pages": [
+        {
+          "fullWidth": false,
+          "main": [
+            "profiles",
+            "summary",
+            "education",
+            "experience",
+            "projects",
+            "volunteer",
+            "references",
+            "019cb016-a477-70be-b7f3-f25188674ee3"
+          ],
+          "sidebar": [
+            "skills",
+            "certifications",
+            "awards",
+            "languages",
+            "interests",
+            "publications"
+          ]
+        }
+      ]
+    },
+    "css": {
+      "enabled": false,
+      "value": ""
+    },
+    "page": {
+      "gapX": 4,
+      "gapY": 6,
+      "marginX": 14,
+      "marginY": 12,
+      "format": "a4",
+      "locale": "en-US",
+      "hideIcons": false
+    },
+    "design": {
+      "level": {
+        "icon": "star",
+        "type": "circle"
+      },
+      "colors": {
+        "primary": "rgba(220, 38, 38, 1)",
+        "text": "rgba(0, 0, 0, 1)",
+        "background": "rgba(255, 255, 255, 1)"
+      }
+    },
+    "typography": {
+      "body": {
+        "fontFamily": "IBM Plex Serif",
+        "fontWeights": [
+          "400",
+          "500"
+        ],
+        "fontSize": 10,
+        "lineHeight": 1.5
+      },
+      "heading": {
+        "fontFamily": "IBM Plex Serif",
+        "fontWeights": [
+          "600"
+        ],
+        "fontSize": 14,
+        "lineHeight": 1.5
+      }
+    },
+    "notes": ""
+  }
+}
