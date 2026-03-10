@@ -10,7 +10,7 @@ const noiseUrl = "data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://
     
     <div class="container hero-content">
       <div class="label-wrapper">
-        <span class="mono-label hero-label">SDE 1</span>
+        <span class="mono-label hero-label">Software Developer</span>
       </div>
       
       <h1 class="hero-name">Pranav Jadhav.</h1>
@@ -20,7 +20,7 @@ const noiseUrl = "data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://
       </p>
       
       <div class="hero-actions">
-        <a href="#work" class="btn btn-primary">See my work &rarr;</a>
+        <a href="#working" class="btn btn-primary">See my work &rarr;</a>
         <a href="#contact" class="btn btn-ghost">Get in touch</a>
       </div>
     </div>

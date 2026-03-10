@@ -5,9 +5,9 @@ const projects = [
   {
     id: 1,
     title: 'Amazon Clone',
-    description: 'Full-stack clone with shopping cart functionality, secure Stripe payment integration, and a real-time responsive database.',
-    tags: ['reactjs', 'firebase'],
-    githubUrl: 'https://challenge-629de.web.app/',
+    description: 'Full-stack e-commerce replica with Stripe payments, real-time Firestore synchronization, and Firebase serverless logic.',
+    tags: ['reactjs', 'node.js', 'firebase', 'stripe'],
+    githubUrl: 'https://github.com/actualpranav/amazon-clone',
     liveUrl: 'https://challenge-629de.web.app/',
   },
   {
@@ -15,6 +15,20 @@ const projects = [
     title: 'Tic-Tac-Toe Engine',
     description: 'Core Java customizable game supporting 26x26 boards and bots using MVC architecture, SOLID principles, and OOP concepts.',
     tags: ['java', 'oop', 'mvc'],
+  },
+  {
+    id: 3,
+    title: 'PraNow',
+    description: 'An interactive personal platform featuring a custom UI engine and dynamic state management',
+    tags: ['vuejs', 'vite', 'frontend'],
+    liveUrl: 'https://pranow.vercel.app/',
+  },
+  {
+    id: 4,
+    title: 'ClipKboard',
+    description: 'A cloud-synced clipboard tool for effortless text sharing across devices, powered by real-time database lookups based on usernames.',
+    tags: ['reactjs', 'firebase', 'firestore'],
+    liveUrl: 'https://clipkboard.web.app/',
   }
 ]
 </script>

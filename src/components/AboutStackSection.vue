@@ -14,7 +14,7 @@
             I'm a backend engineer currently working as an SDE 1 at Swiggy. I specialize in designing horizontally scalable systems, optimizing costs, and building reliable microservices. 
           </p>
           <p>
-            Previously, I interned at Fibe and State Street where I built fraud detection dashboards and migrated legacy systems ensuring 100% data accuracy.
+            I enjoy exploring new technical landscapes and value the process of learning and adapting to different architectures.
           </p>
         </div>
       </div>
@@ -90,8 +90,6 @@
 
 .about-body p:last-child {
   margin-bottom: 0;
-  font-size: var(--text-small);
-  opacity: 0.8;
 }
 
 /* Stack Column (Terminal) */

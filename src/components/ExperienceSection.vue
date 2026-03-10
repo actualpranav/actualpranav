@@ -6,24 +6,24 @@ const experiences = [
     role: 'Software Development Engineer 1',
     company: 'Swiggy',
     period: 'Aug 2024 - Present',
-    description: 'Architected the migration of legacy monolithic services to scalable Spring Boot microservices and unified event-processing pipelines. Optimized Kafka and AWS infrastructure to sustain 575K events/min while driving significant monthly cost reductions. Spearheaded strategic integrations, including a real-time catalog sync for 13M items and an LLM-powered incident management tool, drastically reducing operational overhead.',
-    tech: ['Java/Spring Boot', 'Go', 'Kafka', 'AWS', 'Redis', 'gRPC']
+    description: 'I worked on consolidating Swiggy’s communication platforms—handling SMS, WhatsApp, and Push Notifications—which helped reduce monthly infrastructure costs by ~$2,500. I also built the real-time catalog sync for Instamart (13M items) with Meta Ads and worked on the Brandverse project. Most of this involves managing high-throughput event pipelines at 575K events per minute using Kafka and HAProxy. Throughout these projects, I gained hands-on exposure to a broad AWS stack including SQS, SES, DynamoDB, ElastiCache, and more.',
+    tech: ['Go', 'Java', 'AWS', 'Kafka', 'HAProxy', 'Spring Boot']
   },
   {
     id: 2,
     role: 'Backend Developer Intern',
     company: 'Fibe (EarlySalary)',
     period: 'Jan 2024 - Jun 2024',
-    description: 'Engineered a Fraud Syndicate Dashboard and automated critical KYC workflows. Designed and deployed systems to extract location data from video KYC, significantly enhancing identity verification accuracy and reducing customer onboarding costs.',
-    tech: ['Python', 'SQL', 'Fraud Detection', 'Workflow Automation']
+    description: 'I built a Fraud Syndicate Dashboard and worked on automating KYC workflows. I also helped design systems to extract location data from video KYC, which made identity verification more accurate and reduced onboarding costs.',
+    tech: ['Java', 'SQL', 'AWS', 'Springboot']
   },
   {
     id: 3,
     role: 'Intern',
     company: 'State Street',
     period: 'May 2023 - Jul 2023',
-    description: 'Contributed to a major platform migration (Axiom V9 to V10), ensuring strict data integrity. Developed automated testing workflows for the QA organization, improving iterative release confidence and operational efficiency.',
-    tech: ['Java', 'SQL', 'Shell Scripting', 'QA Automation']
+    description: 'I was part of the platform migration from Axiom V9 to V10, ensuring everything stayed accurate during the move. I also developed automated testing workflows to help the QA team release more reliably.',
+    tech: ['Java', 'SQL', 'Axiom', 'QA Automation']
   }
 ]
 </script>
