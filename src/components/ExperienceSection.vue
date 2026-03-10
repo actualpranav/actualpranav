@@ -50,12 +50,7 @@ const experiences = [
           <div class="timeline-content">
             <div class="timeline-header">
               <h3 class="role-title">{{ exp.role }}</h3>
-              <span class="company-name">
-                @ 
-                <a :href="exp.companyUrl" target="_blank" rel="noopener noreferrer" class="company-link">
-                  {{ exp.company }}
-                </a>
-              </span>
+              <span class="company-name">@<a :href="exp.companyUrl" target="_blank" rel="noopener noreferrer" class="company-link">{{ exp.company }}</a></span>
             </div>
             
             <div class="period-label mono-label">{{ exp.period }}</div>
@@ -195,7 +190,7 @@ const experiences = [
   .timeline-header {
     flex-direction: row;
     align-items: baseline;
-    gap: 8px;
+    gap: 4px;
   }
 }
 
