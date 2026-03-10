@@ -20,7 +20,7 @@ const noiseUrl = "data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://
       </p>
       
       <div class="hero-actions">
-        <a href="#working" class="btn btn-primary">See my work &rarr;</a>
+        <a href="#work" class="btn btn-primary">See my work &rarr;</a>
         <a href="#contact" class="btn btn-ghost">Get in touch</a>
       </div>
     </div>

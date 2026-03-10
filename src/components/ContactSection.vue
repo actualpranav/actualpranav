@@ -116,18 +116,23 @@ const copyEmail = async () => {
 .email-wrapper {
   display: flex;
   align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
   gap: 12px;
   margin-bottom: var(--spacing-xl);
+  max-width: 100%;
 }
 
 .email-link {
   color: var(--color-nuage-de-lait);
   font-family: var(--font-heading);
-  font-size: clamp(24px, 4vw, 36px);
+  font-size: clamp(18px, 6vw, 36px);
   font-weight: 700;
   position: relative;
   display: inline-block;
   padding-bottom: 4px;
+  overflow-wrap: break-word;
+  word-break: break-word;
 }
 
 .copy-btn {

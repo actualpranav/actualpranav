@@ -11,7 +11,12 @@ defineProps<{
 <template>
   <article class="project-card">
     <div class="card-content">
-      <h3 class="project-title">{{ title }}</h3>
+      <h3 class="project-title">
+        <a v-if="liveUrl" :href="liveUrl" target="_blank" rel="noopener noreferrer" class="title-link">
+          {{ title }}
+        </a>
+        <span v-else>{{ title }}</span>
+      </h3>
       <p class="project-desc">{{ description }}</p>
       
       <div class="project-tags">
@@ -69,6 +74,19 @@ defineProps<{
   font-size: var(--text-h2);
   margin-bottom: var(--spacing-sm);
   line-height: 1.3;
+}
+
+.title-link {
+  color: inherit;
+  text-decoration: none;
+  transition: color 0.2s ease, text-decoration 0.2s ease;
+}
+
+.title-link:hover {
+  color: var(--color-terre-cuite);
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 4px;
 }
 
 .project-desc {

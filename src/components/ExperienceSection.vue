@@ -5,6 +5,7 @@ const experiences = [
     id: 1,
     role: 'Software Development Engineer 1',
     company: 'Swiggy',
+    companyUrl: 'https://www.swiggy.com/',
     period: 'Aug 2024 - Present',
     description: 'I worked on consolidating Swiggy’s communication platforms—handling SMS, WhatsApp, and Push Notifications—which helped reduce monthly infrastructure costs by ~$2.5K. Recently, I worked on the real-time catalog sync for Instamart (13M items) with Meta Ads and the Brandverse project. \n Most of my work involves managing high-throughput event pipelines that process millions of events per minute. Throughout these projects, I’ve gained hands-on exposure to a broad AWS stack including SQS, SES, DynamoDB, ElastiCache, and more.',
     tech: ['Go', 'Java', 'AWS', 'Kafka', 'HAProxy', 'Spring Boot']
@@ -13,6 +14,7 @@ const experiences = [
     id: 2,
     role: 'Backend Developer Intern',
     company: 'Fibe (EarlySalary)',
+    companyUrl: 'https://www.fibe.in/about-us/',
     period: 'Jan 2024 - Jun 2024',
     description: 'I built a Fraud Syndicate Dashboard and worked on automating KYC workflows. I also helped design systems to extract location data from video KYC, which made identity verification more accurate and reduced onboarding costs.',
     tech: ['Java', 'SQL', 'AWS', 'Springboot']
@@ -21,6 +23,7 @@ const experiences = [
     id: 3,
     role: 'Intern',
     company: 'State Street',
+    companyUrl: 'https://www.statestreet.com/us/en/about/our-story',
     period: 'May 2023 - Jul 2023',
     description: 'I was part of the platform migration from Axiom V9 to V10, ensuring everything stayed accurate during the move. I also developed automated testing workflows to help the QA team release more reliably.',
     tech: ['Java', 'SQL', 'Axiom', 'QA Automation']
@@ -29,7 +32,7 @@ const experiences = [
 </script>
 
 <template>
-  <section class="experience-section" id="working">
+  <section class="experience-section" id="work">
     <div class="container">
       <div class="section-header">
         <span class="mono-label section-label">// Architecture & Impact</span>
@@ -47,7 +50,12 @@ const experiences = [
           <div class="timeline-content">
             <div class="timeline-header">
               <h3 class="role-title">{{ exp.role }}</h3>
-              <span class="company-name">@ {{ exp.company }}</span>
+              <span class="company-name">
+                @ 
+                <a :href="exp.companyUrl" target="_blank" rel="noopener noreferrer" class="company-link">
+                  {{ exp.company }}
+                </a>
+              </span>
             </div>
             
             <div class="period-label mono-label">{{ exp.period }}</div>
@@ -202,6 +210,17 @@ const experiences = [
   color: var(--color-camel);
   font-size: var(--text-base-size);
   font-weight: 500;
+}
+
+.company-link {
+  color: inherit;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.company-link:hover {
+  color: var(--color-terre-cuite);
+  text-decoration: underline;
 }
 
 .period-label {
