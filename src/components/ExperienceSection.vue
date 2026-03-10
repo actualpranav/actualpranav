@@ -6,7 +6,7 @@ const experiences = [
     role: 'Software Development Engineer 1',
     company: 'Swiggy',
     period: 'Aug 2024 - Present',
-    description: 'I worked on consolidating Swiggy’s communication platforms—handling SMS, WhatsApp, and Push Notifications—which helped reduce monthly infrastructure costs by ~$2.5K. I also built the real-time catalog sync for Instamart (13M items) with Meta Ads and worked on the Brandverse project. Most of this involves managing high-throughput event pipelines handling millions of events per minute using Kafka and HAProxy. Throughout these projects, I gained hands-on exposure to a broad AWS stack including SQS, SES, DynamoDB, ElastiCache, and more.',
+    description: 'I worked on consolidating Swiggy’s communication platforms—handling SMS, WhatsApp, and Push Notifications—which helped reduce monthly infrastructure costs by ~$2.5K. Recently, I worked on the real-time catalog sync for Instamart (13M items) with Meta Ads and the Brandverse project. \n Most of my work involves managing high-throughput event pipelines that process millions of events per minute. Throughout these projects, I’ve gained hands-on exposure to a broad AWS stack including SQS, SES, DynamoDB, ElastiCache, and more.',
     tech: ['Go', 'Java', 'AWS', 'Kafka', 'HAProxy', 'Spring Boot']
   },
   {
@@ -212,10 +212,11 @@ const experiences = [
 }
 
 .role-description {
-  color: var(--color-camel); /* Using camel for body text on espresso is legible */
+  color: var(--color-camel);
   line-height: 1.6;
   margin-bottom: var(--spacing-md);
   font-size: var(--text-base-size);
+  white-space: pre-line; /* Respects \n in the text data */
 }
 
 .tech-stack-list {

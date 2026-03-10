@@ -75,6 +75,7 @@ defineProps<{
   color: var(--color-text-muted);
   font-size: var(--text-base-size);
   margin-bottom: var(--spacing-lg);
+  white-space: pre-line; /* Respects \n in the text data */
 }
 
 .project-tags {
