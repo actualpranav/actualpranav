@@ -3,6 +3,12 @@ import ProjectCard from './ProjectCard.vue'
 
 const projects = [
   {
+    id: 5,
+    title: 'LLM On-call Summary Generator',
+    description: 'Developed an LLM-powered tool to automate weekly reliability and cost reports, reducing on-call preparation time from 5 hours to just minutes.',
+    tags: ['LLM', 'Python', 'AWS', 'Automation'],
+  },
+  {
     id: 1,
     title: 'Amazon Clone',
     description: 'Full-stack e-commerce replica with Stripe payments, real-time Firestore synchronization, and Firebase serverless logic.',
@@ -11,17 +17,17 @@ const projects = [
     liveUrl: 'https://challenge-629de.web.app/',
   },
   {
-    id: 2,
-    title: 'Tic-Tac-Toe Engine',
-    description: 'Core Java customizable game supporting 26x26 boards and bots using MVC architecture, SOLID principles, and OOP concepts.',
-    tags: ['java', 'oop', 'mvc'],
-  },
-  {
     id: 3,
     title: 'PraNow',
     description: 'An interactive personal platform featuring a custom UI engine and dynamic state management',
     tags: ['vuejs', 'vite', 'frontend'],
     liveUrl: 'https://pranow.vercel.app/',
+  },
+  {
+    id: 2,
+    title: 'Tic-Tac-Toe Engine',
+    description: 'Core Java customizable game supporting 26x26 boards and bots using MVC architecture, SOLID principles, and OOP concepts.',
+    tags: ['java', 'oop', 'mvc'],
   },
   {
     id: 4,
